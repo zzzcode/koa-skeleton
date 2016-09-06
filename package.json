@@ -1,0 +1,21 @@
+{
+  "name": "custom",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-bodyparser": "^2.2.0",
+    "koa-compress": "^1.0.6",
+    "koa-helmet": "^2.0.0",
+    "koa-router": "^5.4.0",
+    "log4js": "^0.6.38"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "supertest": "^0.12.1"
+  }
+}
